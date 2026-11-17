@@ -1,10 +1,48 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover</title>
+</head>
 <body>
-<h1>Discover Movies</h1>
+
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="rating.html">Top Rated</a></li>
+        <li><a href="trailer.html">Trailer</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <h2>Discover Movies</h2>
+
+    <form action="#">
+
+        <label for="s">Search title</label>
+        <input type="search" id="s" name="s" placeholder="Search movie">
+
+        <label for="g">Genre</label>
+        <select id="g" name="g">
+            <option value="all">All genres</option>
+            <option value="Drama">Drama</option>
+            <option value="Sci-Fi">Sci-Fi</option>
+            <option value="Action">Action</option>
+            <option value="Animation">Animation</option>
+            <option value="Thriller">Thriller</option>
+        </select>
+
+        <label for="o">Sort by</label>
+        <select id="o" name="o">
+            <option value="rating">Rating</option>
+            <option value="year">Year</option>
+            <option value="title">Title</option>
+        </select>
+
+        <input type="checkbox" id="f" name="f">
+        <label for="f">Favourites only</label>
+
+    </form>
 </body>
 </html>
