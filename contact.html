@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,80 @@
     <title>Contact</title>
 </head>
 <body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="rating.html">Top Rated</a></li>
+                <li><a href="trailer.html">Trailer</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact &amp; Suggest a Movie</h1>
+
+        <h2>Suggest a movie</h2>
+
+        <form action="#">
+
+            <label for="n">Name</label>
+            <input type="text" id="n" name="n" required>
+
+            <label for="e">Email</label>
+            <input type="email" id="e" name="e" required>
+
+            <label for="m">Your favorite movie</label>
+            <input type="text" id="m" name="m">
+
+            <fieldset>
+                <legend>How did you find us?</legend>
+
+                <input type="radio" id="friend" name="source" value="friend" checked>
+                <label for="friend">Friend</label>
+
+                <input type="radio" id="social" name="source" value="social">
+                <label for="social">Social media</label>
+            </fieldset>
+
+            <label for="msg">Message</label>
+            <textarea id="msg" name="msg" rows="4"></textarea>
+
+            <button type="submit">Send</button>
+
+        </form>
+
+        <h2>Visit or call us</h2>
+
+        <address>
+            Duca Studio<br>
+            Bole Road, Addis Ababa, Ethiopia<br>
+            <a href="mailto:hello@duca.com">hello@duca.com</a><br>
+            <a href="tel:+251911828282">+251 911 828 282</a>
+        </address>
+
+        <h2>Find Us on the Map</h2>
+
+        <iframe
+            title="Map showing Bole, Addis Ababa"
+            src="https://www.google.com/maps?q=Bole,Addis%20Ababa,Ethiopia&amp;output=embed"
+            width="600"
+            height="450"
+            allowfullscreen
+            loading="lazy">
+        </iframe>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Duca Studio &middot; <a href="mailto:hello@duca.com">hello@duca.com</a></p>
+        <p>
+            Data inspired by
+            <a href="https://www.imdb.com">IMDb</a>.
+        </p>
+    </footer>
 
 </body>
 </html>
